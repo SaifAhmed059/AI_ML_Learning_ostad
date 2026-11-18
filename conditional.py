@@ -7,18 +7,33 @@
 
 # Conditional Statement
 
-#if else
+# #if else
 
-rain = 1 # bristy hocche
+# rain = 1 # bristy hocche
 
-10 == 10 # True
-10 == 4 # False
+# 10 == 10 # True
+# 10 == 4 # False
 
-print(10==4)
-print(10 == 10)
+# print(10==4)
+# print(10 == 10)
 
-if rain == 1: #if er moddhe jodi sotti kotha hoy tahole vitore dhukbe
-    print("Ajke School e jabo na")
-else:  # if er modddhe jodi mittha kotha hoy tahole er moddhe dhukbe
-    print("Ajke School e jabo")
+# if rain == 1: #if er moddhe jodi sotti kotha hoy tahole vitore dhukbe
+#     print("Ajke School e jabo na")
+# else:  # if er modddhe jodi mittha kotha hoy tahole er moddhe dhukbe
+#     print("Ajke School e jabo")
 
+# ekta number pos, neg, 0 kina check korbo
+
+x = 10
+
+# check eta positive number kina: x>0
+if x > 0:
+    print("Eta positive number")
+
+# jodi pos na hoy tahole check koro eta negative kina: x<0
+elif x < 0:
+    print("Eta negative number")
+
+# duitar aktao na hole seta obossoi 0: 0
+else:
+    print("Eta obossoi 0") 
