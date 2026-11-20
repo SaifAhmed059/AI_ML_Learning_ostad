@@ -11,6 +11,16 @@ a = [1,2,3,'Naim','Fahim', 8.9, 3.4]
 # s = "He llo"
 # print(list(s)) # convert string to list
 
-a.append([1, 2, 3]) # add 100 at the end of the list
+# a.append([1, 2, 3]) # add 100 at the end of the list
 
+a.reverse()
 print(a)
+
+# tuple() ---> Immutable
+
+t = (1, 2, 3)
+# t[0] = 100
+t_r = tuple(reversed(t))
+
+print(t)
+print(t_r)
